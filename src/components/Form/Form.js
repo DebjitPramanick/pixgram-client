@@ -90,7 +90,7 @@ const Form = () => {
         >
           PixShare{" "}
           <i
-            class="fa fa-check"
+            className="fa fa-check"
             aria-hidden="true"
             style={{ height: "1rem", marginLeft: "0.5rem" }}
           ></i>
@@ -105,7 +105,7 @@ const Form = () => {
         >
           Clear{" "}
           <i
-            class="fa fa-trash-o"
+            className="fa fa-trash-o"
             aria-hidden="true"
             style={{ marginLeft: "0.5rem" }}
           ></i>

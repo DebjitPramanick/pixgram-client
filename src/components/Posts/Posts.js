@@ -3,6 +3,7 @@ import Post from "./Post/Post";
 import useStyles from "./PostsStyle";
 import { useSelector } from "react-redux";
 
+
 const Posts = () => {
   const classes = useStyles();
   const posts = useSelector((state) => state.posts);
@@ -12,8 +13,10 @@ const Posts = () => {
   return (
     <div>
       <h1>Posts</h1>
+
       <Post />
       <Post />
+
     </div>
   );
 };
